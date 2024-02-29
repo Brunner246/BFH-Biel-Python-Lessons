@@ -8,15 +8,17 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
+
 def add_one(aNumber):
     return aNumber + 1
+
 
 def printtest(something):
     print(f'something {something}')
 
+
 name = input("Wie ist Ihr Name? ")
 print("Hallo, " + name + "!")
-
 
 a = float(input("Geben Sie die erste Zahl ein: "))
 b = float(input("Geben Sie die zweite Zahl ein: "))
@@ -71,8 +73,9 @@ def ist_primzahl(zahl):
             return False
     return True
 
+
 def primzahlen_bis(zahl):
-    for i in range(2, zahl+1):
+    for i in range(2, zahl + 1):
         if ist_primzahl(i):
             print(i)
 
@@ -82,7 +85,6 @@ woerter = ["Apfel", "Banane", "Erdbeere", "Melone", "Kirsche", "Mango"]
 for wort in woerter:
     if len(wort) > 5:
         print(wort)
-
 
 # mein_tupel = (1, 2, 3)
 # mein_tupel[0] = 4 # Dieser Code wird einen Fehler verursachen, da Tupel unveränderlich sind
@@ -110,7 +112,6 @@ c = z + " Wie geht es dir?"
 print("Der Wert von a ist:", a)
 print("Der Wert von b ist:", b)
 print("Der Wert von c ist:", c)
-
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
